@@ -177,7 +177,7 @@ namespace StackRecursion
             while (nodeStack.Any())
             {
                 currentNode = nodeStack.Pop();
-                if (currentNode.Value != 4 && currentNode.Children.Count < currentNode.Value)
+                if (currentNode.Value != 3 && currentNode.Children.Count < currentNode.Value)
                 {
                     nodeStack.Push(currentNode);
 
