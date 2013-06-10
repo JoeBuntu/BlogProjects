@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_StackRecursion", "1_StackRecursion\1_StackRecursion.csproj", "{597BA168-5B6A-40F2-A04D-CA2B1D811FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_TLSContext", "2_TLSContext\2_TLSContext.csproj", "{8D2B8EF2-737A-4665-B46F-FFB810B056EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,16 @@ Global
 		{597BA168-5B6A-40F2-A04D-CA2B1D811FEC}.Release|Mixed Platforms.Build.0 = Release|x86
 		{597BA168-5B6A-40F2-A04D-CA2B1D811FEC}.Release|x86.ActiveCfg = Release|x86
 		{597BA168-5B6A-40F2-A04D-CA2B1D811FEC}.Release|x86.Build.0 = Release|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Debug|x86.ActiveCfg = Debug|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Debug|x86.Build.0 = Debug|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Release|Any CPU.ActiveCfg = Release|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Release|x86.ActiveCfg = Release|x86
+		{8D2B8EF2-737A-4665-B46F-FFB810B056EE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
