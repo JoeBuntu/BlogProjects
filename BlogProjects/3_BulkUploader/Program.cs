@@ -131,7 +131,7 @@ namespace _3_BulkUploader
             bulkCopy.DestinationTableName = _Table;
             for (int i = 0; i < _Mappings.Count; i++)
             {
-                bulkCopy.ColumnMappings.Add(i, i);
+                bulkCopy.ColumnMappings.Add(i, _Mappings[i].Column);
             }
             var reader = new RecordReader<T>(_Mappings, records);
             bulkCopy.WriteToServer(reader); 
