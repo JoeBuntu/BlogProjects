@@ -20,7 +20,7 @@ namespace _3_BulkUploader
 
             //add mappings - column meta (last arg) does not need specified if table does not need created
             peopleUploader.AddMapping(x => x.First, "First", "varchar(50) NOT NULL");
-            peopleUploader.AddMapping(x => x.Last, "Last", "varchar(2) NOT NULL");
+            peopleUploader.AddMapping(x => x.Last, "Last", "varchar(50) NOT NULL");
             peopleUploader.AddMapping(x => x.Age, "Age", "int NULL");
 
             //establish db connection...
